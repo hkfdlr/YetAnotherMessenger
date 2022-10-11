@@ -2,7 +2,7 @@ package hshl.isd.hkfdlr.PA.Entities;
 
 import lombok.*;
 
-import javax.persistence.*;
+//import javax.persistence.*;
 import java.text.SimpleDateFormat;
 
 //@Getter
@@ -14,12 +14,6 @@ import java.text.SimpleDateFormat;
 //@Entity
 //@Table(name = "MESSAGES")
 public class Message {
-    // primary key
-//    Number senderNumber;
-//    Number receiverNumber;
-    // foreign key
-//    UUID contactId;
-//    SimpleDateFormat timestamp;
 
 //    @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)

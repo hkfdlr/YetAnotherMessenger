@@ -3,26 +3,14 @@ package hshl.isd.hkfdlr.PA_SSE;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableMongoRepositories
-public class PaApplication implements CommandLineRunner {
+//@ComponentScan({"hshl.isd.hkfdlr.PA_SSE.Repositories"})
+//@EnableMongoRepositories
+public class PaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PaApplication.class, args);
-	}
-
-	@Override
-	public void run(String... args) throws Exception {
-//		XMPPTCPConnectionConfiguration config = XMPPTCPConnectionConfiguration.builder()
-//				.setUsernameAndPassword("hkfdlr", "z21t18i20t")
-//				.setXmppDomain("jabb3r.org")
-//				.setHost("jabb3r.org")
-//				.build();
-//
-//		AbstractXMPPConnection connection = new XMPPTCPConnection(config);
-//		connection.connect();
-//		connection.login();
 	}
 }

@@ -11,13 +11,13 @@ import java.time.LocalDateTime;
 @Service
 public class UserService {
 
-    @Autowired
-    UserRepo userRepo;
-
-    public Flux<MessageView> findWithTailableCursorByRoom(String room) {
-        return userRepo.findWithTailableCursorByRoom(room)
-                .map(msg -> new MessageView(msg.getText(), "anon", LocalDateTime.now()));
-    };
+//    @Autowired
+//    UserRepo userRepo;
+//
+//    public Flux<MessageView> findWithTailableCursorByRoom(String room) {
+//        return userRepo.findWithTailableCursorByRoom(room)
+//                .map(msg -> new MessageView(msg.getText(), "anon", LocalDateTime.now()));
+//    };
 
 //    public newMessage(MessageBody messageBody) {
 //        this.userRepo.save(Message(null, messageBody.text, messageBody.room)).subscribe();

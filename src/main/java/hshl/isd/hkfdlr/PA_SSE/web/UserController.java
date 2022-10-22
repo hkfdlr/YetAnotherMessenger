@@ -17,9 +17,9 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)
-    public Flux<MessageView> getAllMessages(@RequestParam String room) {
-        return userService.findWithTailableCursorByRoom(room);
-    }
+//    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+//    public Flux<MessageView> getAllMessages(@RequestParam String room) {
+//        return userService.findWithTailableCursorByRoom(room);
+//    }
 
 }

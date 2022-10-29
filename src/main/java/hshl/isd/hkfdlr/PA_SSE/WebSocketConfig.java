@@ -1,4 +1,4 @@
-package hshl.isd.hkfdlr.PA_SSE.websockets;
+package hshl.isd.hkfdlr.PA_SSE;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

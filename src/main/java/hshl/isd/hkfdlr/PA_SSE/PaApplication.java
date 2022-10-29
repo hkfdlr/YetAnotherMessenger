@@ -6,8 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@ComponentScan({"hshl.isd.hkfdlr.PA_SSE.Repositories"})
-//@EnableMongoRepositories
 public class PaApplication {
 
 	public static void main(String[] args) {

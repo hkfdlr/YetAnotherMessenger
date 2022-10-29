@@ -1,4 +1,4 @@
-package hshl.isd.hkfdlr.PA_SSE.websockets;
+package hshl.isd.hkfdlr.PA_SSE.Domain.Entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
